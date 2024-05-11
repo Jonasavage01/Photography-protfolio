@@ -2,8 +2,7 @@
 2.iniciar el env: env\Scripts\activate
 3.cd frontend
 4.npm install
-5.iniciar el env: env\Scripts\activate
-6.iniciar el projecto:npm run dev
+5.iniciar el projecto:npm run dev
 
 otros comandos
 para instalar boostrap: npm install react-bootstrap bootstrap
