@@ -15,8 +15,8 @@
 body{
     background-image: url('../images/Camera1.png');
     background-repeat: no-repeat; 
-    background-position: calc(100% - 0px) calc(100% - -140px); 
-    background-size: 90%;
+    background-position: top right; 
+    background-size: 100%;
 }
 
 
@@ -31,26 +31,59 @@ body{
     z-index: 0; /* Asegura que la capa esté detrás del texto */
 }
 .hero-section .text-section {
-    padding: 13% 6%;
+    padding: 9% 7%;
     z-index: 10;
 
 }
 
 .principal{
     font-family:'Junge', cursive;
-    font-size: 550%;
+    font-size: 6.0rem;
     
 }
 
 .principal-text{
     font-family:"Inter", sans-serif;
-    font-weight: 200;
-    font-size: 100%;
-    margin-top: 1%;
-    max-width: 70%;
+    font-weight: 100;
+    font-size: 1.0rem;
+    margin-top: 0.5%;
+    max-width: 95%;
 }
 
 .view{
     margin-top: 2%;
 }
 
+
+@media (max-width: 992px) { /* Adjustments for tablets */
+    .hero-section .text-section {
+        padding: 10% 3%;
+    }
+    .principal {
+        font-size: 3.5rem;
+    }
+    .principal-text {
+        font-size: 90%;
+    }
+    body {
+        background-size: 70%;
+        background-position: top right;
+    }
+}
+
+@media (max-width: 576px) { /* Adjustments for mobile devices */
+    .hero-section .text-section {
+        padding: 10% 3%;
+    }
+    .principal {
+        font-size: 2.5rem;
+    }
+    .principal-text {
+        font-size: 80%;
+        max-width: 100%;
+    }
+    body {
+        background-size: 150%;
+        background-position: top right;
+    }
+}
