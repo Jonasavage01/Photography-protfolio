@@ -1,0 +1,7 @@
+1.Para iniciar el env: env\Scripts\activate
+2.Para iniciar el projecto:npm run dev
+
+otros comandos
+para instalar boostrap: npm install react-bootstrap bootstrap
+para instalar react mas vite:npm create vite@lastest frontend -- --template react
+
